@@ -1,7 +1,6 @@
 # Garden Advice App
 
-season = input("Enter the season (spring, summer, autumn, or winter): ").lower()
-
+season = input("Enter the season (spring, summer, autumn, or winter): ").strip().lower()
 
 def get_gardening_advice(season):
     """Return gardening advice based on the selected season."""
