@@ -2,7 +2,9 @@
 
 season = input("Enter the season (spring, summer, autumn, or winter): ").lower()
 
+
 def get_gardening_advice(season):
+    """Return gardening advice based on the selected season."""
     if season == "spring":
         return "Spring is a great time to plant flowers and vegetables."
     elif season == "summer":
@@ -14,5 +16,6 @@ def get_gardening_advice(season):
     else:
         return "Please enter a valid season."
 
+
 advice = get_gardening_advice(season)
-print(advice) 
+print(advice)
